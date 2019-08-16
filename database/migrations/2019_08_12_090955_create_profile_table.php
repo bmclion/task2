@@ -21,6 +21,7 @@ class CreateProfileTable extends Migration
             $table->string('date_of_birth')->nullable();
             $table->integer('user_department')->nullable();
             $table->integer('user_designation')->nullable();
+            $table->string('profile_pic')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

@@ -24,6 +24,7 @@
                     <div>
                         <p>
 
+                            <span><img src="{{ asset($profile->profile_pic) }}" style="height: 150px; width: 150px; border-radius: 50%;"></span><br/><br/>
 
                             <label>ID :</label>
                             <span>{{ $profile->user_id }}</span><br/>

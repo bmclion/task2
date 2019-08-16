@@ -71,6 +71,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
                     <ul class="dropdown-menu">
                         <li>
+                            <a>
+                                <i class="fa fa-user">Profile</i>
+                            </a>
+                        </li>
+                        <li>
+
+
+
                             <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                 <i class="fa fa-fw fa-power-off"></i> Log Out
                             </a>

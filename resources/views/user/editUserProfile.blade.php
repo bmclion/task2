@@ -31,6 +31,11 @@
                         {{csrf_field()}}
                         <input type="hidden" name="_method" value="PATCH" />
 
+                        <div>
+                            <label>Profile Picture</label><br/>
+                            <input type="file" name="profile_pic"/>
+                        </div><br/>
+
                         <div class="form-group">
                             <label>ID</label>
                             <input type="text" class="form-control" name="user_id" value="{{$user_profile->id}}" readonly />

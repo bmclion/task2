@@ -27,6 +27,7 @@ class Profile extends Model
         , 'date_of_birth'
         , 'user_designation'
         , 'user_department'
+        , 'profile_pic'
         ,
     ];
 

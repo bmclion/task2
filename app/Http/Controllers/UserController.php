@@ -53,11 +53,15 @@ class UserController extends Controller
                 'name' => $request->get('name')
                 , 'email' => $request->get('email')
                 , 'password' => $request->get('password')
+                ,
+
             ]);
 
             /* getting values of user ID and email when a new user is created*/
             $user_profile = new Profile([
                 'email' => $request->get('email'),
+
+
             ]);
 
             /* relationship : user hasOne profile

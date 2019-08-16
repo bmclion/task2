@@ -30,7 +30,10 @@
                     <form method = "post" action="{{url('userProfile')}}" enctype="multipart/form-data">
                         {{csrf_field()}}
 
-
+                        <div class="form-group">
+                            <label>Profile Picture</label>
+                            <input type="file" name="profile_pic" />
+                        </div>
 
                         <div class="form-group">
                             <label>ID</label>
